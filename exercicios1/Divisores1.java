@@ -1,5 +1,7 @@
 package exercicios1;
 
+import java.util.Scanner;
+
 public class Divisores1 {
 
     /*
@@ -14,6 +16,19 @@ public class Divisores1 {
         Ex saída: 1/2/3/6
      */
     public static void main(String[] args) {
+
+        Scanner scan = new Scanner(System.in);
+
+        int num=0;
+
+        System.out.println("Digite um número:");
+        num = scan.nextInt();
+
+        for(int i=1; i<=num; i++){
+            if(num%i ==0){
+                System.out.println(i);
+            }
+        }
 
     }
 }

@@ -43,7 +43,7 @@ public class Positivos_Media {
         }
 
         System.out.printf("Dos números digitados %d são posisitos.",qtdPos);
-        System.out.printf("\nA média dos valores positivos é = %1f.",soma/qtdPos);
+        System.out.printf("\nA média dos valores positivos é = %.1f.",soma/qtdPos);
 
     }
 }
